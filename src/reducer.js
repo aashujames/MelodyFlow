@@ -34,6 +34,12 @@ const reducer = (state, action) => {
                 discover_weekly: action.discover_weekly
             };
 
+        case "SET_CURRENT_PLAYBACK":
+            return {
+                ...state,
+                current_playback: action.current_playback
+            };
+
         default:
             return state;
     }
