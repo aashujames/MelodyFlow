@@ -1,6 +1,6 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://sensational-smakager-237c79.netlify.app/";
 const clientId = "0fd8164872364b0f8a3c15831a4b8c43";
 
 const scopes = [
