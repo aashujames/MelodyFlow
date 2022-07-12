@@ -2,8 +2,7 @@ export const initialState = {
     user: null,
     playlists: [],
     playing: false,
-    item: null,
-    token: ""
+    item: null
 };
 
 const reducer = (state, action) => {
